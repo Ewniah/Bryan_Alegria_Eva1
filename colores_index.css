@@ -1,20 +1,20 @@
 body {
     font-family: sans-serif;
     margin: 10px;
-    background-color: #f8f8f8; /* Un fondo gris claro */
-    color: #333; /* Texto principal gris oscuro */
+    background-color: #f8f8f8;
+    color: #333;
 }
 
 header {
     text-align: center;
     padding: 1em 0;
     margin-bottom: 20px;
-    border-bottom: 2px solid #ccc; /* Línea debajo del encabezado */
+    border-bottom: 2px solid #ccc;
 }
 
 header h1 {
-    color: #007bff; /* Título principal azul */
-    font-size: 2em; /* Tamaño de fuente más grande */
+    color: #007bff;
+    font-size: 2em;
 }
 
 main {
@@ -24,15 +24,15 @@ main {
 article, section {
     margin-bottom: 20px;
     padding: 15px;
-    background-color: #fff; /* Fondo blanco para las secciones/artículos */
-    border: 1px solid #ddd; /* Borde sutil */
-    border-radius: 5px; /* Bordes redondeados */
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
 }
 
 article h2, section h2 {
-    color: #28a745; /* Títulos de sección/artículo verdes */
+    color: #28a745;
     margin-top: 0;
-    border-bottom: 1px solid #eee; /* Línea debajo de los títulos */
+    border-bottom: 1px solid #eee;
     padding-bottom: 0.5em;
 }
 
@@ -65,16 +65,16 @@ article ul li a, section ul li a {
     list-style: none;
     padding: 0;
     margin: 0;
-    text-align: center; /* Centrar la navegación */
+    text-align: center;
 }
 
 #navegacion ul li {
-    display: inline; /* Mostrar los elementos de la lista en línea */
-    margin: 0 10px; /* Espacio entre los elementos de la lista */
+    display: inline;
+    margin: 0 10px;
 }
 
 #navegacion ul li a {
     text-decoration: none;
     color: #007bff;
-    font-weight: bold; /* Enlaces de navegación en negrita */
+    font-weight: bold;
 }
