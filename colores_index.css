@@ -1,13 +1,60 @@
 body {
     font-family: sans-serif;
     margin: 10px;
-    background-color: #ffffff; /* Fondo blanco */
-    color: #000000; /* Texto negro */
+    background-color: #f8f8f8; /* Un fondo gris claro */
+    color: #333; /* Texto principal gris oscuro */
 }
 
 header {
     text-align: center;
-    margin-bottom: 15px;
+    padding: 1em 0;
+    margin-bottom: 20px;
+    border-bottom: 2px solid #ccc; /* Línea debajo del encabezado */
+}
+
+header h1 {
+    color: #007bff; /* Título principal azul */
+    font-size: 2em; /* Tamaño de fuente más grande */
+}
+
+main {
+    padding: 10px 0;
+}
+
+article, section {
+    margin-bottom: 20px;
+    padding: 15px;
+    background-color: #fff; /* Fondo blanco para las secciones/artículos */
+    border: 1px solid #ddd; /* Borde sutil */
+    border-radius: 5px; /* Bordes redondeados */
+}
+
+article h2, section h2 {
+    color: #28a745; /* Títulos de sección/artículo verdes */
+    margin-top: 0;
+    border-bottom: 1px solid #eee; /* Línea debajo de los títulos */
+    padding-bottom: 0.5em;
+}
+
+article img, section img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 10px auto;
+}
+
+article ul, section ul {
+    list-style: disc;
+    padding-left: 20px;
+}
+
+article ul li, section ul li {
+    margin-bottom: 10px;
+}
+
+article ul li a, section ul li a {
+    color: #0000ff;
+    text-decoration: underline;
 }
 
 #navegacion {
@@ -18,37 +65,16 @@ header {
     list-style: none;
     padding: 0;
     margin: 0;
+    text-align: center; /* Centrar la navegación */
 }
 
 #navegacion ul li {
-    margin-bottom: 5px;
+    display: inline; /* Mostrar los elementos de la lista en línea */
+    margin: 0 10px; /* Espacio entre los elementos de la lista */
 }
 
-#navegacion a {
-    text-decoration: underline;
-    color: #0000ff; /* Enlaces azules */
-}
-
-main {
-    padding: 10px 0;
-}
-
-section {
-    margin-bottom: 15px;
-}
-
-section h2 {
-    margin-top: 0;
-}
-
-section img {
-    max-width: 100%;
-    height: auto;
-    display: block;
-    margin: 5px auto;
-}
-
-section ul {
-    list-style: disc;
-    padding-left: 20px;
+#navegacion ul li a {
+    text-decoration: none;
+    color: #007bff;
+    font-weight: bold; /* Enlaces de navegación en negrita */
 }
